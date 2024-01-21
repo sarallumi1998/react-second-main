@@ -1,0 +1,41 @@
+/* CustomCarousel.css */
+
+.custom-carousel {
+  position: relative;
+  max-width: 100%;
+  margin-bottom:60px;
+}
+
+.custom-carousel img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.carousel-caption {
+  position: absolute;
+  margin-bottom:30px;
+  bottom:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  padding:15px;
+  box-sizing: border-box;
+}
+
+.carousel-caption h3{
+  margin: 0;
+  font-weight: bolder;
+  color:black;
+}
+
+/* Media Query for responsiveness */
+@media (max-width: 767px) {
+  .carousel-caption {
+    font-size: 14px;
+    top:30%;
+    }
+  
+}
