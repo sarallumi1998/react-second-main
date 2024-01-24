@@ -1,7 +1,6 @@
-// App.js
+
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
 import AboutUs from './components/AboutUs/AboutUs';
 import Review from './components/Review/Review';
 import Login from './components/Login/Login';
@@ -18,16 +17,19 @@ const App = () => {
     setActiveSection(section);
   };
 
+  
+
   return (
+    
     <div>
-      <Navbar activeSection={activeSection} handleSetActive={handleSetActive} />
-      <CustomCarousel />
+    <Navbar activeSection={activeSection} handleSetActive={handleSetActive} />
+    <CustomCarousel />
       <AboutUs />
-      <Review />
-      <Login />
-      <SignUp />
-      <Contact />
-      <Footer />
+     <Review />
+    <Login />
+    <SignUp />
+    <Contact />
+    <Footer />
     </div>
   );
 };

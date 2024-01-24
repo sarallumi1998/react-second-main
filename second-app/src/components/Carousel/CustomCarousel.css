@@ -1,16 +1,14 @@
-/* CustomCarousel.css */
-
 .custom-carousel {
   position: relative;
   max-width: 100%;
-  margin-bottom:60px;
-}
+ }
 
 .custom-carousel img {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   object-fit: cover;
   object-position: 50% 50%;
+  
 }
 
 .carousel-caption {
@@ -28,10 +26,12 @@
 .carousel-caption h3{
   margin: 0;
   font-weight: bolder;
-  color:black;
+  color:white;
+  font-style: italic;
+  font-family: cursive;
 }
 
-/* Media Query for responsiveness */
+
 @media (max-width: 767px) {
   .carousel-caption {
     font-size: 14px;

@@ -1,14 +1,13 @@
-// Login.js
+
 import React, { useState } from 'react';
-import './Login.css'; // Import the CSS file
-import { Element } from 'react-scroll';
+import './Login.css'; 
 const Login = () => {
  
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
   const handleLogin = () => {
-    // Basic validation
+    
     if (!username || !password) {
       alert('All fields are required');
       return;
@@ -18,9 +17,7 @@ const Login = () => {
   };
 
   return (
-    <Element name="login">
-    <div className="container-1">
-    <div className="container">
+    <div className="container" id="login">
       <h2>Login</h2>
       <div>
         <label>Username:</label>
@@ -34,8 +31,7 @@ const Login = () => {
        <button onClick={handleLogin}>Login</button>
       
     </div>
-    </div>
-    </Element>
+    
   );
 };
 

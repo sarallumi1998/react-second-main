@@ -3,8 +3,8 @@
     padding: 20px;
     text-align: center;
     color: white;
-    position: fixed;
-    margin-bottom: 0%;
-   bottom: 0%;
+ position: fixed;
+ margin-bottom: 0;
+    bottom: 0;
     width: 100%;
     }

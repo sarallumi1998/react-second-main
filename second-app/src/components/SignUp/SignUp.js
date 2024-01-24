@@ -1,8 +1,5 @@
-
 import React, { useState } from 'react';
 import './SignUp.css'; 
-import { Element } from 'react-scroll';
-
 const SignUp = () => {
   const [username, setUsername] = useState('');
   const [email, setEmail] = useState('');
@@ -10,7 +7,7 @@ const SignUp = () => {
   const [confirmPassword, setConfirmPassword] = useState('');
 
   const handleSignUp = () => {
-   // Basic validation
+   
    if (!username || !email || !password || !confirmPassword) {
     alert('All fields are required');
     return;
@@ -22,9 +19,7 @@ const SignUp = () => {
   };
 
   return (
-    <Element name="signup">
-    <div className="container-1">
-    <div className="container">
+    <div className="container-1" id ="signup">
       <h2 className="custom-heading">Sign Up</h2> 
       <div className="form-group"> 
         <label htmlFor="name" className="label-style">Username:</label> 
@@ -44,8 +39,8 @@ const SignUp = () => {
       </div>
       <button onClick={handleSignUp} className="btn-style">Create Account</button> 
     </div>
-    </div>
-    </Element>
+    
+    
   );
 };
 

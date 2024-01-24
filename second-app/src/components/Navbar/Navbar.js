@@ -24,10 +24,14 @@ const Navbar = ({ activeSection, handleSetActive }) => {
   return (
     <nav className="navbar">
       <div className="logo">
+        <div className="logoimg">
+        <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/furniture.png" alt="furniture"/>
+        </div>
         <ScrollLink to="customCarousel" smooth={true} duration={500} onClick={() => handleSetActive('home')}>
-          FurnStore
+             FurnStore
         </ScrollLink>
       </div>
+      
       <ul>
       <li>
           <ScrollLink to="customCarousel" smooth={true} duration={500} onClick={() => handleSetActive('home')}>

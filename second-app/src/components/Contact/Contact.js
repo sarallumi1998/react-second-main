@@ -1,14 +1,11 @@
-// Contact.js
 import React from 'react';
 import './Contact.css';
-import { Element } from 'react-scroll';
+
+
 const Contact = () => {
   return (
-    <Element name="contact">   
     <div id="contact"  className="contact-container">
       <h2>Contact Us</h2>
-      
-      {/* Contact Form */}
       <form className="contact-form">
         <label htmlFor="name">Your Name:</label>
         <input type="text" id="name" name="name" placeholder='Your Name' />
@@ -25,15 +22,15 @@ const Contact = () => {
         <button type="submit">Submit</button>
       </form>
 
-      {/* Additional Sections */}
+      
       <div className="contact-sections">
-        {/* Visit Us */}
+       
         <div className="contact-section">
           <h3><b>Visit Us</b></h3>
           <p><b>Keela Ambikapuram, Malayappa Nagar,Trichy-620004.</b></p>
         </div>
 
-        {/* Customer Support */}
+       
         <div className="contact-section">
           <h3><b>Customer Support</b></h3>
           <p><b>Email: support@FurnStore.com</b></p>
@@ -41,7 +38,7 @@ const Contact = () => {
         </div>
       </div>
 
-      {/* Iframe Map */}
+      
       <div className="map-container">
         <iframe
           title="Google Map"
@@ -53,8 +50,8 @@ const Contact = () => {
         ></iframe>
       </div>
     </div>
-    </Element>
- 
+   
+  
   );
 };
 
