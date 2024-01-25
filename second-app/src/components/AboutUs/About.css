@@ -2,7 +2,6 @@
   max-width: 800px;
   margin:0 auto;
   font-weight: bold;
-  margin-top:-5%;
   }
     
   .responsive-image {
@@ -13,8 +12,3 @@
     
   }
   
-  @media screen and (max-width: 768px) {
-  .about-us-container{
-    margin-top:-10%;
-  }
-}

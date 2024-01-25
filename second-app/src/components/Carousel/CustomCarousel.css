@@ -27,9 +27,7 @@
   margin: 0;
   font-weight: bolder;
   color:white;
-  font-style: italic;
-  font-family: cursive;
-}
+  }
 
 
 @media (max-width: 767px) {

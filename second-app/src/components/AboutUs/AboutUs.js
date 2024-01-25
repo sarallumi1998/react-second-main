@@ -4,7 +4,7 @@ import './About.css';
 const AboutUs = () => {
   return (
       <div className="about-us-container" id="about">         
-      <h2>Our Story</h2>
+      <h2 style={{textAlign:'center'}}>Our Story</h2>
           <p style={{textAlign:'center'}}>FurnStore® is a fully integrated manufacturer concentrating on four key segments of the contract market—Healthcare, Education, Corporate and Government.</p>
      <p style={{textAlign:'center'}}>Established in 1991 out of a desire to bring a unique customer-oriented approach to the contract marketplace, we design durable, elegant furniture that excels at meeting all core requirements. Combined with a huge array of options, choices, price points, and scales, our customers can specify the best possible solution.</p>
      <p style={{textAlign:'center'}}>We are recognized as a market leader in the quality, design, and engineering of contract furniture products, focusing on a wide range of markets and designs. Thousands of Spec product installations are in use throughout India, supported by an industry-leading warranty and a dedication to outstanding customer service.</p>
